@@ -94,8 +94,6 @@ def prescriptions_list():
         print(textwrap.indent(tabulate.tabulate(table), prefix="\t"))
 
 
-# cli.add_command(initdb)
-# cli.add_command(dropdb)
 cli.add_command(login)
 cli.add_command(orders)
 cli.add_command(prescriptions)
